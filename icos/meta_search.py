@@ -16,5 +16,5 @@ for key, value in dobj.meta.items():
 print(type(dobj.meta))
 
 with open('meta.json', 'w') as dest:
-    json.dump(dobj.meta, dest)
+    json.dump(dobj.meta, dest, indent=1)
 
