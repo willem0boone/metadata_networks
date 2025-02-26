@@ -5,4 +5,4 @@ station_list = station.getIdList()  # Returns a Pandas DataFrame.
 for item in station_list.itertuples():
     print(item)
 
-station_list.to_csv("stations.csv")
+station_list.to_csv("_stations.csv")

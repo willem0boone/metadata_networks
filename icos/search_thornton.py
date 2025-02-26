@@ -8,7 +8,7 @@ for key, value in my_station.info().items():
 
 print(type(my_station.info()))
 
-with open('thornton.json', 'w') as dest:
+with open('_thornton.json', 'w') as dest:
     json.dump(my_station.info(), dest, indent=1)
 
 
