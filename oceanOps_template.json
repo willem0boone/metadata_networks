@@ -1,0 +1,49 @@
+{
+  "identification": {
+    "wigos_id": null,
+    "platform_description": null,
+    "eov": null
+  },
+  "affiliation": {
+    "program": null,
+    "country": null,
+    "organization_lead": null,
+    "goos_network": null,
+    "observatories": null,
+    "tags": null
+  },
+  "data": {
+    "dac": null,
+    "glob_data_node": null,
+    "data_identifier": null
+  },
+  "Operations": {
+    "deploy_data": null,
+    "deploy_lat": null,
+    "deploy_lon": null,
+    "deploy_shi": null,
+    "deploy_cruis": null,
+    "ending_date": null,
+    "ending_lat": null,
+    "ending_lon": null,
+    "ending_cause": null,
+    "recovery_ship": null
+  },
+  "hardware": {
+    "platform_model": null,
+    "manufacturer": null,
+    "serial_number": null,
+    "telecommunication": null,
+    "sensors": []
+  },
+  "Status": {
+    "status": null,
+    "latest_observation_date": null,
+    "latest_observation_lat": null,
+    "latest_observation_lon": null
+  },
+  "update": {
+    "passport_delivery_date": null,
+    "latest_update_date": null
+  }
+}
