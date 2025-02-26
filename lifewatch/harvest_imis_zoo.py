@@ -8,9 +8,9 @@ with urllib.request.urlopen(zooplankton_url) as url:
     data = json.load(url)
     # pprint(data)
 
-with open('oceanOps_template.json') as json_file:
+with open('../oceanOps_template.json') as json_file:
     ocean_ops = json.load(json_file)
-    # pprint(ocean_ops)
+    pprint(ocean_ops)
 
 title = json.dumps(data["datasetrec"]["StandardTitle"])
 owner_surname = json.dumps(data["ownerships"][0]["Surname"])
