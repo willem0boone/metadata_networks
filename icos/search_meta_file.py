@@ -1,4 +1,4 @@
-""""""
+"""search in the metafile, you need to provide the link to the dataset"""
 import json
 
 from icoscp.dobj import Dobj
@@ -15,6 +15,6 @@ for key, value in dobj.meta.items():
 
 print(type(dobj.meta))
 
-with open('_meta.json', 'w') as dest:
+with open('_meta_file.json', 'w') as dest:
     json.dump(dobj.meta, dest, indent=1)
 

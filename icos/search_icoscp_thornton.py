@@ -1,3 +1,4 @@
+"""search & list all icos stations using icoscp"""
 from icoscp.station import station
 import json
 
@@ -8,7 +9,7 @@ for key, value in my_station.info().items():
 
 print(type(my_station.info()))
 
-with open('_thornton.json', 'w') as dest:
+with open('_icoscp_thornton.json', 'w') as dest:
     json.dump(my_station.info(), dest, indent=1)
 
 
