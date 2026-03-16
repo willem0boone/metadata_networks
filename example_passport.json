@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "schemaVersion": "1.0",
+    "sourceText": "Machine-to-machine passport submission example",
+    "ingestionMethodId": 2,
+    "contactId": 1000360,
+    "observedAt": "2026-03-12T14:30:00Z"
+  },
+  "options": {
+    "mode": "UPSERT",
+    "dryRun": false,
+    "createIfMissing": {
+      "platform": false,
+      "sensorSetups": true
+    }
+  },
+  "platform": {
+    "match": {
+      "passportId": "0-22000-0-4100564"
+    },
+    "patch": {
+      "name": "RV-Polarstern mission",
+      "comments": "Mounted on foredeck",
+      "deployment": {
+        "date": "2025-09-23T00:00:00Z",
+        "latitude": 48.8566,
+        "longitude": 2.3522,
+        "method": {
+          "code": "manual"
+        },
+        "maxWaterDepth": 4200,
+        "elevation": 5.5,
+        "ship": {
+          "imoNumber": "7427518"
+        }
+      },
+      "retrieval": {
+        "startDate": "2026-03-01T12:00:00Z",
+        "endDate": "2026-03-10T12:00:00Z",
+        "latitude": -33.9,
+        "longitude": 18.4,
+        "ship": {
+          "ovhId": "2023"
+        },
+        "endingCause": {
+          "code": "beach"
+        }
+      }
+    }
+  },
+  "sensorSetups": [
+    {
+      "match": {
+        "shortCode" : "B"
+      },
+      "data": {
+        "create": {
+          "variable": {
+            "code": "TEMP"
+          },
+          "sensorModel": {
+            "code": "SBE41"
+          },
+          "placement": {},
+          "sensor": {},
+          "lifecycle": {},
+          "comments": "Primary temperature sensor installed during servicing."
+        }
+      }
+    }
+  ],
+  "contactContributions": [
+    {
+      "contactId": 1000360,
+      "roles": ["operator"]
+    }
+  ],
+  "agencyContributions": [
+    {
+      "agencyId": 1001620,
+      "roles": ["metrology-agency"]
+    }
+  ]
+}
