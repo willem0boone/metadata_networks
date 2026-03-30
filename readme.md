@@ -1,8 +1,10 @@
 # Metadata scraping
+Scraping metadata for OceanOps passport.
 
-Scraping metadata from VLIZ its ICOS & LifeWatch nodes for AMRIT project (T8.2 connect coastal nodes).
+## Contact
+- Willem Boone (VLIZ) Flanders Marine Institute: willem.boone@vliz.be
 
-VLIZ intends to connect following systems:
-- ICOS [VLIZ Thornton buoy](https://www.icos-belgium.be/OSDataBuoy.php)
-- Lifewatch [VLIZ zooscan sampling](https://rshiny.lifewatch.be/zooscan-data/)
-- Lifewatch [VLIZ phytoplankton sampling](https://rshiny.lifewatch.be/flowcam-data/)
+## Credits
+This package was developed as part of AMRIT project T8.2.
+The AMRIT project is funded by the European Union under the Horizon Europe Programme, Grant Agreement No. 101132013.
+

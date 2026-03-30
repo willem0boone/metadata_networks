@@ -1,10 +1,10 @@
 {
- "hash": "sp_VuFeRlEBUcXY_LPniUWfWHmz_QE-cSyV9W2XMql8",
- "accessUrl": "https://data.icos-cp.eu/objects/sp_VuFeRlEBUcXY_LPniUWfW",
- "pid": "11676/sp_VuFeRlEBUcXY_LPniUWfW",
+ "hash": "koYRHEPpQrcGi0d52ex_5HfB0QqR-eQXzuEEmuZDjNM",
+ "accessUrl": "https://data.icos-cp.eu/objects/koYRHEPpQrcGi0d52ex_5HfB",
+ "pid": "11676/koYRHEPpQrcGi0d52ex_5HfB",
  "doi": null,
- "fileName": "119920221001.csv",
- "size": 2371348,
+ "fileName": "119920250601.csv",
+ "size": 159128,
  "submission": {
   "submitter": {
    "self": {
@@ -17,8 +17,8 @@
    "website": null,
    "webpageDetails": null
   },
-  "start": "2023-10-09T09:25:02.398401Z",
-  "stop": "2023-10-09T09:25:05.129840Z"
+  "start": "2025-12-10T09:43:22.136131693Z",
+  "stop": "2025-12-10T09:43:22.804741249Z"
  },
  "specification": {
   "self": {
@@ -56,6 +56,7 @@
     ]
    },
    "goodFlagValues": [
+    "1",
     "2",
     "9"
    ]
@@ -123,7 +124,7 @@
        {
         "name": "Data",
         "coverImage": "https://www.icos-cp.eu/media/290",
-        "target": "https://data.icos-cp.eu/portal/#%7B%22filterCategories%22:%7B%22station%22:%5B%22iOS_1199%22%5D%7D%7D",
+        "target": "https://data.icos-cp.eu/portal/#%7B%22filterCategories%22%3A%7B%22station%22%3A%5B%22iOS_1199%22%5D%2C%22level%22%3A%5B1%2C2%5D%7D%7D",
         "orderWeight": 3
        },
        {
@@ -184,8 +185,8 @@
    },
    "site": null,
    "interval": {
-    "start": "2022-10-01T00:00:01Z",
-    "stop": "2022-11-17T08:06:03Z"
+    "start": "2025-06-01T00:00:09Z",
+    "stop": "2025-07-16T20:02:25Z"
    },
    "instrument": null,
    "samplingPoint": null,
@@ -205,253 +206,243 @@
    },
    "contributors": [],
    "host": null,
-   "comment": "Data processed using QuinCe v19.0.7",
+   "comment": "Data processed using QuinCe v25.2.1",
    "sources": [
     {
-     "res": "https://meta.icos-cp.eu/objects/UK8ImFSMCju_muSGZezY3ubI",
-     "hash": "UK8ImFSMCju_muSGZezY3ubI46runqu4dlH8spOXKs0",
-     "name": "Buoy221018.sqlite.csv"
+     "res": "https://meta.icos-cp.eu/objects/UuwgQxF8chkWXN5mUSIlw_fQ",
+     "hash": "UuwgQxF8chkWXN5mUSIlw_fQTpDP1ak1v7-lvYEN2C8",
+     "name": "Buoy250601.sqlite.csv"
     },
     {
-     "res": "https://meta.icos-cp.eu/objects/T7xy26m6YTkz8YUYUwgvB0iD",
-     "hash": "T7xy26m6YTkz8YUYUwgvB0iDYdpTN1g1h2TZCZgquv8",
-     "name": "Buoy221103.sqlite.csv"
+     "res": "https://meta.icos-cp.eu/objects/rMc3_TCmmeuyTS2Vw_V-DvcZ",
+     "hash": "rMc3_TCmmeuyTS2Vw_V-DvcZNNmKhwFx448HBFhu2IM",
+     "name": "Buoy250602.sqlite.csv"
     },
     {
-     "res": "https://meta.icos-cp.eu/objects/gK3r70UxAaTEEff_tLkWBgGX",
-     "hash": "gK3r70UxAaTEEff_tLkWBgGXumOYmiXuvnZQIEdN40I",
-     "name": "Buoy221112.sqlite.csv"
+     "res": "https://meta.icos-cp.eu/objects/fXV4E1s6PZE2ngjca5oCkgLs",
+     "hash": "fXV4E1s6PZE2ngjca5oCkgLsm65GEQ0vO_AkwDpfHY0",
+     "name": "Buoy250603.sqlite.csv"
     },
     {
-     "res": "https://meta.icos-cp.eu/objects/2QX4hstRpZCZ0NMwW6sreJpB",
-     "hash": "2QX4hstRpZCZ0NMwW6sreJpBP5ulQnO8X0WRWhTXdac",
-     "name": "Buoy221108.sqlite.csv"
+     "res": "https://meta.icos-cp.eu/objects/KJ1gAhNKB6p5eaQb5rjrNWo0",
+     "hash": "KJ1gAhNKB6p5eaQb5rjrNWo03mXwNGU2d4EGsgMX2z8",
+     "name": "Buoy250604.sqlite.csv"
     },
     {
-     "res": "https://meta.icos-cp.eu/objects/WRX1TjIh8Gi_H1o5xaOV61jW",
-     "hash": "WRX1TjIh8Gi_H1o5xaOV61jWUXq9MLPItYSWeWtCDbg",
-     "name": "Buoy221025.sqlite.csv"
+     "res": "https://meta.icos-cp.eu/objects/fKibAPx8bvlP2UptZMHmM4T3",
+     "hash": "fKibAPx8bvlP2UptZMHmM4T3hai13gB6kmZ9ueVH-oI",
+     "name": "Buoy250605.sqlite.csv"
     },
     {
-     "res": "https://meta.icos-cp.eu/objects/1-dGU33k6j46B5AHfxbzLLrt",
-     "hash": "1-dGU33k6j46B5AHfxbzLLrtR7olbk6DxlW4kvDbpvU",
-     "name": "Buoy221107.sqlite.csv"
+     "res": "https://meta.icos-cp.eu/objects/07Tt76SmLm_ZKRKmnB_ojQTd",
+     "hash": "07Tt76SmLm_ZKRKmnB_ojQTdWj4a66oZxsTMb_OQOBg",
+     "name": "Buoy250606.sqlite.csv"
     },
     {
-     "res": "https://meta.icos-cp.eu/objects/SvBY_o9EwkK9AQ7ev2bFAWvH",
-     "hash": "SvBY_o9EwkK9AQ7ev2bFAWvHcza0YWk_7DA2z9DgqMg",
-     "name": "Buoy221011.sqlite.csv"
+     "res": "https://meta.icos-cp.eu/objects/LmDiwkpfGMF3q0UjxwRnuhRK",
+     "hash": "LmDiwkpfGMF3q0UjxwRnuhRK16Yj6NTIJ1FdjIpND_Y",
+     "name": "Buoy250607.sqlite.csv"
     },
     {
-     "res": "https://meta.icos-cp.eu/objects/hIHrCXNm8NyJ6ArGVUpfU-Kv",
-     "hash": "hIHrCXNm8NyJ6ArGVUpfU-KvALQWLwRfbSF6hId-j50",
-     "name": "Buoy221022.sqlite.csv"
+     "res": "https://meta.icos-cp.eu/objects/3qcDTeJeDzYlV9tlHH8GFj-x",
+     "hash": "3qcDTeJeDzYlV9tlHH8GFj-xPTV15v5heYIumnahrYg",
+     "name": "Buoy250608.sqlite.csv"
     },
     {
-     "res": "https://meta.icos-cp.eu/objects/836E5NffwUZm45aLjuUnNu0t",
-     "hash": "836E5NffwUZm45aLjuUnNu0tr5L4vzDrFYkP2FuCEcY",
-     "name": "Buoy221026.sqlite.csv"
+     "res": "https://meta.icos-cp.eu/objects/T-vX7KrEFyqBZd4oP2t8cR62",
+     "hash": "T-vX7KrEFyqBZd4oP2t8cR628Y-bmHViKuFGnoM3T30",
+     "name": "Buoy250609.sqlite.csv"
     },
     {
-     "res": "https://meta.icos-cp.eu/objects/1sdQ30BpFgz9d511vMpuiCbQ",
-     "hash": "1sdQ30BpFgz9d511vMpuiCbQEKNacqZA7wH6loKwwr8",
-     "name": "Buoy221023.sqlite.csv"
+     "res": "https://meta.icos-cp.eu/objects/soDdvgnWg-Jj2xBE7V4H8qO_",
+     "hash": "soDdvgnWg-Jj2xBE7V4H8qO_r0nMofvfcZy8QJOGB4o",
+     "name": "Buoy250610.sqlite.csv"
     },
     {
-     "res": "https://meta.icos-cp.eu/objects/fSm_FYubhnXHn--Ehuk76nzE",
-     "hash": "fSm_FYubhnXHn--Ehuk76nzE9oF_KW9PAKZ6XWsG-bI",
-     "name": "Buoy221003.sqlite.csv"
+     "res": "https://meta.icos-cp.eu/objects/DY3KRlAZlcoJrWW70BxxL4Jp",
+     "hash": "DY3KRlAZlcoJrWW70BxxL4JpdeT6JD1eCK33CvIMr3w",
+     "name": "Buoy250611.sqlite.csv"
     },
     {
-     "res": "https://meta.icos-cp.eu/objects/X71FaUEbYV-d1xp1rBVnmWp4",
-     "hash": "X71FaUEbYV-d1xp1rBVnmWp4f3hn2Fwow_al-DMEeL0",
-     "name": "Buoy221015.sqlite.csv"
+     "res": "https://meta.icos-cp.eu/objects/VQwXhU0wdFYbS8OWRFQU3kzk",
+     "hash": "VQwXhU0wdFYbS8OWRFQU3kzkhZEnkGKezbBMx_snIRA",
+     "name": "Buoy250612.sqlite.csv"
     },
     {
-     "res": "https://meta.icos-cp.eu/objects/ZhE21BufytROr3pDBwrIDDfN",
-     "hash": "ZhE21BufytROr3pDBwrIDDfNtrZ17LaeUVTvsVJgGGs",
-     "name": "Buoy221029.sqlite.csv"
+     "res": "https://meta.icos-cp.eu/objects/jZdyo4CSaX0o3SLyJQipQZt6",
+     "hash": "jZdyo4CSaX0o3SLyJQipQZt63VJvgeql8OyN8EmjSII",
+     "name": "Buoy250613.sqlite.csv"
     },
     {
-     "res": "https://meta.icos-cp.eu/objects/h69eifeqZ6YpH4slxY4dhGjt",
-     "hash": "h69eifeqZ6YpH4slxY4dhGjtPQZC0jzv_yUBNkZx-74",
-     "name": "Buoy221021.sqlite.csv"
+     "res": "https://meta.icos-cp.eu/objects/2OVHWm8ajpztJVdNF9bgQit0",
+     "hash": "2OVHWm8ajpztJVdNF9bgQit0rCJra6mjE60sbzVpA9I",
+     "name": "Buoy250614.sqlite.csv"
     },
     {
-     "res": "https://meta.icos-cp.eu/objects/cSpt4BOkLsGjEdUX9SeaxeOd",
-     "hash": "cSpt4BOkLsGjEdUX9SeaxeOd_p_dJi8nU3ac4qoejW0",
-     "name": "Buoy221115.sqlite.csv"
+     "res": "https://meta.icos-cp.eu/objects/1tqjyIDP1Tb66vlvEhWG_i8M",
+     "hash": "1tqjyIDP1Tb66vlvEhWG_i8M9cIy6Fv07WOmIqd92y8",
+     "name": "Buoy250615.sqlite.csv"
     },
     {
-     "res": "https://meta.icos-cp.eu/objects/BJ1S2AW28oNq1dt3wCz9glMF",
-     "hash": "BJ1S2AW28oNq1dt3wCz9glMFIyCyfKgL7-BIR2sqigY",
-     "name": "Buoy221017.sqlite.csv"
+     "res": "https://meta.icos-cp.eu/objects/hcNOVQTEJqxbwg-0cY_Uyikt",
+     "hash": "hcNOVQTEJqxbwg-0cY_UyiktULTTMBy5oLA2jdg0PHM",
+     "name": "Buoy250616.sqlite.csv"
     },
     {
-     "res": "https://meta.icos-cp.eu/objects/cuGjGvdPTBUHn9DHF_5tmKGq",
-     "hash": "cuGjGvdPTBUHn9DHF_5tmKGqXp5gwlJ_7ZE1G_QwMP0",
-     "name": "Buoy221117.sqlite.csv"
+     "res": "https://meta.icos-cp.eu/objects/cu5J9vquCVma-Di20ZnUYGJL",
+     "hash": "cu5J9vquCVma-Di20ZnUYGJLtKH8jcrZCO5c-9-Iy9k",
+     "name": "Buoy250617.sqlite.csv"
     },
     {
-     "res": "https://meta.icos-cp.eu/objects/ZdksWHaP9oozP6hDxrT5bS1Y",
-     "hash": "ZdksWHaP9oozP6hDxrT5bS1YORP7APh3mYmhtjUyN4I",
-     "name": "Buoy221005.sqlite.csv"
+     "res": "https://meta.icos-cp.eu/objects/h5WAtaotooopBTb2eIIyEsmA",
+     "hash": "h5WAtaotooopBTb2eIIyEsmABMs4RTxoLSMtwyuq0ys",
+     "name": "Buoy250618.sqlite.csv"
     },
     {
-     "res": "https://meta.icos-cp.eu/objects/4Sy81iWzebFgAo5lw-opFkbu",
-     "hash": "4Sy81iWzebFgAo5lw-opFkbu2_jwbeT1nJUURCyDDoQ",
-     "name": "Buoy221105.sqlite.csv"
+     "res": "https://meta.icos-cp.eu/objects/WFKeEeJenJy5odtIn_KETEfi",
+     "hash": "WFKeEeJenJy5odtIn_KETEfi8lRrkw5PAt4orH6n5RE",
+     "name": "Buoy250619.sqlite.csv"
     },
     {
-     "res": "https://meta.icos-cp.eu/objects/W-33CadcigXL94DONAxdcs-C",
-     "hash": "W-33CadcigXL94DONAxdcs-CJYMTU_1XtrykUrNAjik",
-     "name": "Buoy221014.sqlite.csv"
+     "res": "https://meta.icos-cp.eu/objects/SG2Re8zFc0xVVrZ3LQ5Jxydy",
+     "hash": "SG2Re8zFc0xVVrZ3LQ5JxydyDApnK05zv0eAb7RFjco",
+     "name": "Buoy250620.sqlite.csv"
     },
     {
-     "res": "https://meta.icos-cp.eu/objects/9t_Uy7I8lYTr2E_jlWbPjrWN",
-     "hash": "9t_Uy7I8lYTr2E_jlWbPjrWNlOKk3ReNN2jUmZbV1Eg",
-     "name": "Buoy221114.sqlite.csv"
+     "res": "https://meta.icos-cp.eu/objects/tO2lLcliNSLiNTxGFrtxmtwv",
+     "hash": "tO2lLcliNSLiNTxGFrtxmtwvEVhWCa-qT6wyrDnRlxo",
+     "name": "Buoy250621.sqlite.csv"
     },
     {
-     "res": "https://meta.icos-cp.eu/objects/FQKeyYVKpC-66cFIZcBjqBiN",
-     "hash": "FQKeyYVKpC-66cFIZcBjqBiNxacR1p_gJL2N2y5ozGk",
-     "name": "Buoy221001.sqlite.csv"
+     "res": "https://meta.icos-cp.eu/objects/YzcAN_N_mK02vYtu88XxyTG1",
+     "hash": "YzcAN_N_mK02vYtu88XxyTG1-oiDAsGPt6P0rel8sCE",
+     "name": "Buoy250622.sqlite.csv"
     },
     {
-     "res": "https://meta.icos-cp.eu/objects/vD8BgumR6cMhrmA72PVWMFbd",
-     "hash": "vD8BgumR6cMhrmA72PVWMFbdtpcnoMKxSoCh_OxBnOs",
-     "name": "Buoy221024.sqlite.csv"
+     "res": "https://meta.icos-cp.eu/objects/fklEdbY4MNWx1Zj25DO05n5S",
+     "hash": "fklEdbY4MNWx1Zj25DO05n5S7qlp2Hr8A9MSjOSPzhs",
+     "name": "Buoy250623.sqlite.csv"
     },
     {
-     "res": "https://meta.icos-cp.eu/objects/MYVFYdn-mvPmp6d_jqe0ne_5",
-     "hash": "MYVFYdn-mvPmp6d_jqe0ne_59lKb3i5EHmJZM1VEaTw",
-     "name": "Buoy221104.sqlite.csv"
+     "res": "https://meta.icos-cp.eu/objects/Xi4j_AUZtbKEr8V4y-4yhl9k",
+     "hash": "Xi4j_AUZtbKEr8V4y-4yhl9kIHTjZUnPuLGINLGLc7A",
+     "name": "Buoy250624.sqlite.csv"
     },
     {
-     "res": "https://meta.icos-cp.eu/objects/npqIydvtcPr_1uqcRGWGGwOp",
-     "hash": "npqIydvtcPr_1uqcRGWGGwOp_egtcm6s_rA3vWQLKR8",
-     "name": "Buoy221016.sqlite.csv"
+     "res": "https://meta.icos-cp.eu/objects/-P8ta3d2on8Isq4s4reLebPG",
+     "hash": "-P8ta3d2on8Isq4s4reLebPG78GNLF9UPjb8lKyC1_Q",
+     "name": "Buoy250625.sqlite.csv"
     },
     {
-     "res": "https://meta.icos-cp.eu/objects/B1fFvx9CHzeBfXlL7ydpy0_F",
-     "hash": "B1fFvx9CHzeBfXlL7ydpy0_FQ0pAenhgNi3DGOQ2uV0",
-     "name": "Buoy221111.sqlite.csv"
+     "res": "https://meta.icos-cp.eu/objects/qNWXoMWrBPkxjTIhD5r4hM0s",
+     "hash": "qNWXoMWrBPkxjTIhD5r4hM0sAdsgAPja7NjULjIJRJU",
+     "name": "Buoy250626.sqlite.csv"
     },
     {
-     "res": "https://meta.icos-cp.eu/objects/rk7h8WvQXAYoHqdkhS7xj5po",
-     "hash": "rk7h8WvQXAYoHqdkhS7xj5poHnKP7OJ9rz09XIiyVOU",
-     "name": "Buoy221109.sqlite.csv"
+     "res": "https://meta.icos-cp.eu/objects/FDb1gf2VP8E15UADPPdY1JQU",
+     "hash": "FDb1gf2VP8E15UADPPdY1JQURxNy0524LxSPboEe5S4",
+     "name": "Buoy250627.sqlite.csv"
     },
     {
-     "res": "https://meta.icos-cp.eu/objects/wOrfvLbgPU4NAJv3pwHVE7Vg",
-     "hash": "wOrfvLbgPU4NAJv3pwHVE7VgjczHnTNvs_CWuM7vjC0",
-     "name": "Buoy221008.sqlite.csv"
+     "res": "https://meta.icos-cp.eu/objects/wEWykZnr2PsYGqXrCJgLFUAz",
+     "hash": "wEWykZnr2PsYGqXrCJgLFUAzKIf1_OBcbBD4FlXwrYM",
+     "name": "Buoy250628.sqlite.csv"
     },
     {
-     "res": "https://meta.icos-cp.eu/objects/QBk0eO2nbTdRPYYjd3bUQc2u",
-     "hash": "QBk0eO2nbTdRPYYjd3bUQc2uh_r2wb_cnprUuJHpcew",
-     "name": "Buoy221116.sqlite.csv"
+     "res": "https://meta.icos-cp.eu/objects/BU1oYkzGyf9W7LAt5MN_n5FB",
+     "hash": "BU1oYkzGyf9W7LAt5MN_n5FBgTgguQakOklcKJZRNHI",
+     "name": "Buoy250629.sqlite.csv"
     },
     {
-     "res": "https://meta.icos-cp.eu/objects/SFu31yFuEewgH175pTLNMVhD",
-     "hash": "SFu31yFuEewgH175pTLNMVhD99Rf0t3sgcphv1HvB_g",
-     "name": "Buoy221010.sqlite.csv"
+     "res": "https://meta.icos-cp.eu/objects/ik4I8-rVjH8FROKI8ZFTdC1q",
+     "hash": "ik4I8-rVjH8FROKI8ZFTdC1qkWHgRzWrQJg9FhVvGkk",
+     "name": "Buoy250630.sqlite.csv"
     },
     {
-     "res": "https://meta.icos-cp.eu/objects/fkMSqQSjo3UCWy39iNE-Fd-e",
-     "hash": "fkMSqQSjo3UCWy39iNE-Fd-elIVX_mOCvqBaPDvwJog",
-     "name": "Buoy221110.sqlite.csv"
+     "res": "https://meta.icos-cp.eu/objects/1Baz_LBsUQngbiJ_ALMw9l9G",
+     "hash": "1Baz_LBsUQngbiJ_ALMw9l9GxoRbNYO38tXbp6vCusE",
+     "name": "Buoy250701.sqlite.csv"
     },
     {
-     "res": "https://meta.icos-cp.eu/objects/tH1IqHYRgC-ztLkJ43lhWVGq",
-     "hash": "tH1IqHYRgC-ztLkJ43lhWVGqBYpEqRy2gW7XleJAWzA",
-     "name": "Buoy221030.sqlite.csv"
+     "res": "https://meta.icos-cp.eu/objects/ezjx1m3niVS_xmc2KGXGGMvO",
+     "hash": "ezjx1m3niVS_xmc2KGXGGMvOE_LVphwacATHicrWlnE",
+     "name": "Buoy250702.sqlite.csv"
     },
     {
-     "res": "https://meta.icos-cp.eu/objects/QmRl3vFDLmqa-MDI34DnLGgI",
-     "hash": "QmRl3vFDLmqa-MDI34DnLGgIhwHTI73ko8LcjTeTj6c",
-     "name": "Buoy221113.sqlite.csv"
+     "res": "https://meta.icos-cp.eu/objects/gXZMwup91oP2SzhRKC2Rn8VP",
+     "hash": "gXZMwup91oP2SzhRKC2Rn8VPZKJn9QvGOtP-4mSP4-4",
+     "name": "Buoy250703.sqlite.csv"
     },
     {
-     "res": "https://meta.icos-cp.eu/objects/xCdUOit1npmA7PyyLZkVCkZc",
-     "hash": "xCdUOit1npmA7PyyLZkVCkZcWhS6wct6PzL8L_Hf9Cw",
-     "name": "Buoy221002.sqlite.csv"
+     "res": "https://meta.icos-cp.eu/objects/FRP8Zby8YcsG-HFOaSfZt000",
+     "hash": "FRP8Zby8YcsG-HFOaSfZt000MEX11sgjGjnd814EPRA",
+     "name": "Buoy250704.sqlite.csv"
     },
     {
-     "res": "https://meta.icos-cp.eu/objects/p4KlHxTcVEaNjcfMIgCDH5Hz",
-     "hash": "p4KlHxTcVEaNjcfMIgCDH5HzkgB0XVbs6T6IjhaE4Pk",
-     "name": "Buoy221101.sqlite.csv"
+     "res": "https://meta.icos-cp.eu/objects/6wUmaiVdreCtw0qGxMzeBDKP",
+     "hash": "6wUmaiVdreCtw0qGxMzeBDKP0B3Sb-PfIuRmbz6t6Vw",
+     "name": "Buoy250705.sqlite.csv"
     },
     {
-     "res": "https://meta.icos-cp.eu/objects/CJ_yMHcoZVSmmucA1KurIvSs",
-     "hash": "CJ_yMHcoZVSmmucA1KurIvSsWMGZBSisj8f-klRTO4g",
-     "name": "Buoy221006.sqlite.csv"
+     "res": "https://meta.icos-cp.eu/objects/noF82nhLYCjy5NGwjllZYDQ7",
+     "hash": "noF82nhLYCjy5NGwjllZYDQ7D-R1SpuJyAgDY_FOvts",
+     "name": "Buoy250706.sqlite.csv"
     },
     {
-     "res": "https://meta.icos-cp.eu/objects/nBXQpp3xzwO1LqFT7-YmQSXZ",
-     "hash": "nBXQpp3xzwO1LqFT7-YmQSXZVXWl5QwS3EVUFk_UIkQ",
-     "name": "Buoy221004.sqlite.csv"
+     "res": "https://meta.icos-cp.eu/objects/1BkKpgheDB-PBxokutSRcDnM",
+     "hash": "1BkKpgheDB-PBxokutSRcDnMQ1GmfsvBYnq6Xki2A9Y",
+     "name": "Buoy250707.sqlite.csv"
     },
     {
-     "res": "https://meta.icos-cp.eu/objects/8pstRVfA_krLdlsOjNzbonQp",
-     "hash": "8pstRVfA_krLdlsOjNzbonQpPx-ipLFQj8PM4YXB3YM",
-     "name": "Buoy221031.sqlite.csv"
+     "res": "https://meta.icos-cp.eu/objects/YNPRrtWY9KVa0izmwll49Rcv",
+     "hash": "YNPRrtWY9KVa0izmwll49RcvP7kEs9em-YZWXs9zIXk",
+     "name": "Buoy250708.sqlite.csv"
     },
     {
-     "res": "https://meta.icos-cp.eu/objects/A6Z_TBAIchdzAhiD12sB401Q",
-     "hash": "A6Z_TBAIchdzAhiD12sB401QQfHc46K4-w-XFwsoqoA",
-     "name": "Buoy221007.sqlite.csv"
+     "res": "https://meta.icos-cp.eu/objects/AuEzkKoSWbaG_X4rF6IFbJlv",
+     "hash": "AuEzkKoSWbaG_X4rF6IFbJlvm3f63ZUiqquSvgYE95I",
+     "name": "Buoy250709.sqlite.csv"
     },
     {
-     "res": "https://meta.icos-cp.eu/objects/nafm849Fpoigs_mkPivPTYG2",
-     "hash": "nafm849Fpoigs_mkPivPTYG2zMoj7pv_SYSnlbHquzs",
-     "name": "Buoy221019.sqlite.csv"
+     "res": "https://meta.icos-cp.eu/objects/L625UpDV6fnk9pej--YcXCWT",
+     "hash": "L625UpDV6fnk9pej--YcXCWT91x1YB0q6O4hhUXf46E",
+     "name": "Buoy250710.sqlite.csv"
     },
     {
-     "res": "https://meta.icos-cp.eu/objects/ga2EiLK-op3Bqj1UTbfuJCFy",
-     "hash": "ga2EiLK-op3Bqj1UTbfuJCFy7Np1wbOk80o6DyGl8cE",
-     "name": "Buoy221106.sqlite.csv"
+     "res": "https://meta.icos-cp.eu/objects/jCcTaLN6GgqTZGDbqKRAbtOE",
+     "hash": "jCcTaLN6GgqTZGDbqKRAbtOEyMaiU0fYJ4eCGZR8UaE",
+     "name": "Buoy250711.sqlite.csv"
     },
     {
-     "res": "https://meta.icos-cp.eu/objects/yGPA_TLLoR3v3Zqmyqcns4fP",
-     "hash": "yGPA_TLLoR3v3Zqmyqcns4fPQN52cCZN_n7R7kw7XMU",
-     "name": "Buoy221028.sqlite.csv"
+     "res": "https://meta.icos-cp.eu/objects/Bu7hhh6XbTMsg_1vIdA-vcba",
+     "hash": "Bu7hhh6XbTMsg_1vIdA-vcbas36Mwmzjr3lNOWloeAc",
+     "name": "Buoy250712.sqlite.csv"
     },
     {
-     "res": "https://meta.icos-cp.eu/objects/CUCavTDAXHR_l8bbOlBleh-y",
-     "hash": "CUCavTDAXHR_l8bbOlBleh-ysIErPvqXk7FqWRXlMiA",
-     "name": "Buoy221012.sqlite.csv"
+     "res": "https://meta.icos-cp.eu/objects/A2NAV5Z9cwPZFh0H4omx3YD2",
+     "hash": "A2NAV5Z9cwPZFh0H4omx3YD2v2jvpwOLcoX8o8LG-F0",
+     "name": "Buoy250713.sqlite.csv"
     },
     {
-     "res": "https://meta.icos-cp.eu/objects/WvKwNbT8cXuvffsYXrMroI0T",
-     "hash": "WvKwNbT8cXuvffsYXrMroI0TX6oa6Ey9Gf4PsMTO5_k",
-     "name": "Buoy221009.sqlite.csv"
+     "res": "https://meta.icos-cp.eu/objects/5Y0xCA_hAGlOVp7s4qOvHUJq",
+     "hash": "5Y0xCA_hAGlOVp7s4qOvHUJqtuQCGvhbYyiZPOt8Bbw",
+     "name": "Buoy250714.sqlite.csv"
     },
     {
-     "res": "https://meta.icos-cp.eu/objects/-yDQ_g1rl8pACanj0-OuYvAj",
-     "hash": "-yDQ_g1rl8pACanj0-OuYvAjWJm62qHDnQApmHCKpkM",
-     "name": "Buoy221020.sqlite.csv"
+     "res": "https://meta.icos-cp.eu/objects/HUFnFAWz_mrnr1RXHNSVPbHo",
+     "hash": "HUFnFAWz_mrnr1RXHNSVPbHoDlSgE7RMw4mQYCQB5FM",
+     "name": "Buoy250715.sqlite.csv"
     },
     {
-     "res": "https://meta.icos-cp.eu/objects/_TbOKsLxqg58hz_rtmmmbTq5",
-     "hash": "_TbOKsLxqg58hz_rtmmmbTq5zUEObuUveJS4CokWlHY",
-     "name": "Buoy221027.sqlite.csv"
-    },
-    {
-     "res": "https://meta.icos-cp.eu/objects/kNs23R80f4WllRLJ2HbDQoEY",
-     "hash": "kNs23R80f4WllRLJ2HbDQoEY4hZis9b6KCpUFePGk4s",
-     "name": "Buoy221013.sqlite.csv"
-    },
-    {
-     "res": "https://meta.icos-cp.eu/objects/QrR8-GfO8VptKmAd8fmsaWK9",
-     "hash": "QrR8-GfO8VptKmAd8fmsaWK969dUBCRdUCob8ie8sKo",
-     "name": "Buoy221102.sqlite.csv"
+     "res": "https://meta.icos-cp.eu/objects/fntV-yXGTMwUOxnq85vY1Rbj",
+     "hash": "fntV-yXGTMwUOxnq85vY1Rbj_JhBRBydP8WFke7QKRk",
+     "name": "Buoy250716.sqlite.csv"
     }
    ],
    "documentation": null,
-   "dateTime": "2023-10-09T09:25:02.370423Z"
+   "dateTime": "2025-12-10T09:43:22.108674Z"
   },
-  "nRows": 10320,
+  "nRows": 543,
   "coverage": null,
   "columns": [
    {
@@ -578,6 +569,33 @@
     "isFlagFor": [
      "http://meta.icos-cp.eu/resources/cpmeta/practSalinityColumn"
     ],
+    "minMax": null,
+    "instrumentDeployments": null
+   },
+   {
+    "model": {
+     "uri": "http://meta.icos-cp.eu/resources/cpmeta/xCo2_in_atmo_ppm",
+     "label": "xCO2 in atmosphere [umol mol-1]",
+     "comments": []
+    },
+    "label": "xCO2 in atmosphere [umol mol-1]",
+    "valueType": {
+     "self": {
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/co2MixingRatio",
+      "label": "CO2 (dry air mole fraction)",
+      "comments": []
+     },
+     "quantityKind": {
+      "uri": "http://meta.icos-cp.eu/resources/cpmeta/portion",
+      "label": "portion",
+      "comments": [
+       "Magnitude of a part of a whole. Can be measured in percent, or be a number between 0 and maximum (inclusive)."
+      ]
+     },
+     "unit": "\u00b5mol mol-1"
+    },
+    "valueFormat": "http://meta.icos-cp.eu/ontologies/cpmeta/float32",
+    "isFlagFor": null,
     "minMax": null,
     "instrumentDeployments": null
    },
@@ -822,20 +840,14 @@
    }
   ]
  },
- "previousVersion": "https://meta.icos-cp.eu/objects/Mv647lErbf_Z5ZpeC0tpSYQg",
+ "previousVersion": "https://meta.icos-cp.eu/objects/GPKT8O4mmD9SMnb-swO4Zw98",
  "nextVersion": null,
- "latestVersion": "https://meta.icos-cp.eu/objects/sp_VuFeRlEBUcXY_LPniUWfW",
- "parentCollections": [
-  {
-   "uri": "https://meta.icos-cp.eu/collections/ixTDu3GtTYUO5TMl65qbKH15",
-   "label": "ICOS Ocean Level 2 Data Release 2022",
-   "comments": []
-  }
- ],
+ "latestVersion": "https://meta.icos-cp.eu/objects/koYRHEPpQrcGi0d52ex_5HfB",
+ "parentCollections": [],
  "references": {
-  "citationString": "Gkritzalis, T., Theetaert, H., Cattrijsse, A., T'Jampens, M. (2023). ICOS OTC FOS Release, Thornton Buoy, 2022-10-01\u20132022-11-17, ICOS RI, https://hdl.handle.net/11676/sp_VuFeRlEBUcXY_LPniUWfW",
-  "citationBibTex": "@misc{https://hdl.handle.net/11676/sp_VuFeRlEBUcXY_LPniUWfW,\r\n  author={Gkritzalis, Thanos and Theetaert, Hannelore and Cattrijsse, Andre and T'Jampens, Michiel},\r\n  title={ICOS OTC FOS Release, Thornton Buoy, 2022-10-01\u20132022-11-17},\r\n  year={2023},\r\n  url={https://hdl.handle.net/11676/sp_VuFeRlEBUcXY_LPniUWfW},\r\n  publisher={Ocean Thematic Centre},\r\n  copyright={http://meta.icos-cp.eu/ontologies/cpmeta/icosLicence},\r\n  pid={11676/sp_VuFeRlEBUcXY_LPniUWfW}\r\n}",
-  "citationRis": "TY - DATA\r\nT1 - ICOS OTC FOS Release, Thornton Buoy, 2022-10-01\u20132022-11-17\r\nID - 11676/sp_VuFeRlEBUcXY_LPniUWfW\r\nPY - 2023\r\nUR - https://hdl.handle.net/11676/sp_VuFeRlEBUcXY_LPniUWfW\r\nPB - Ocean Thematic Centre\r\nAU - Gkritzalis, Thanos\r\nAU - Theetaert, Hannelore\r\nAU - Cattrijsse, Andre\r\nAU - T'Jampens, Michiel\r\nER - ",
+  "citationString": "Gkritzalis, T., Theetaert, H., Cattrijsse, A., T'Jampens, M. (2025). ICOS OTC FOS Release from Thornton Buoy, 2025-06-01\u20132025-07-16, ICOS RI, https://hdl.handle.net/11676/koYRHEPpQrcGi0d52ex_5HfB",
+  "citationBibTex": "@misc{https://hdl.handle.net/11676/koYRHEPpQrcGi0d52ex_5HfB,\r\n  author={Gkritzalis, Thanos and Theetaert, Hannelore and Cattrijsse, Andre and T'Jampens, Michiel},\r\n  title={ICOS OTC FOS Release from Thornton Buoy, 2025-06-01\u20132025-07-16},\r\n  year={2025},\r\n  url={https://hdl.handle.net/11676/koYRHEPpQrcGi0d52ex_5HfB},\r\n  publisher={Ocean Thematic Centre},\r\n  copyright={http://meta.icos-cp.eu/ontologies/cpmeta/icosLicence},\r\n  pid={11676/koYRHEPpQrcGi0d52ex_5HfB}\r\n}",
+  "citationRis": "TY - DATA\r\nT1 - ICOS OTC FOS Release from Thornton Buoy, 2025-06-01\u20132025-07-16\r\nID - 11676/koYRHEPpQrcGi0d52ex_5HfB\r\nPY - 2025\r\nUR - https://hdl.handle.net/11676/koYRHEPpQrcGi0d52ex_5HfB\r\nPB - Ocean Thematic Centre\r\nAU - Gkritzalis, Thanos\r\nAU - Theetaert, Hannelore\r\nAU - Cattrijsse, Andre\r\nAU - T'Jampens, Michiel\r\nER - ",
   "doi": null,
   "keywords": null,
   "authors": [
@@ -884,8 +896,8 @@
     "orcid": "0000-0002-8136-7802"
    }
   ],
-  "title": "ICOS OTC FOS Release, Thornton Buoy, 2022-10-01\u20132022-11-17",
-  "temporalCoverageDisplay": "2022-10-01\u20132022-11-17",
+  "title": "ICOS OTC FOS Release from Thornton Buoy",
+  "temporalCoverageDisplay": "2025-06-01\u20132025-07-16",
   "acknowledgements": null,
   "licence": {
    "url": "http://meta.icos-cp.eu/ontologies/cpmeta/icosLicence",
