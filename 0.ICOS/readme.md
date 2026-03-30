@@ -7,7 +7,7 @@ List can be filtered on
 - stationTheme: "http://meta.icos-cp.eu/ontologies/cpmeta/OS" for oceanic stations.
 - siteType: "fixed stations" for fixed stations (vs SOOP for cruises)
 
-### Station: Thornton buoy
+## Station: Thornton buoy
 Station information can be found via uri in stations list. 
 For Thornton buoy, this is https://meta.icos-cp.eu/resources/stations/OS_1199. 
 
@@ -35,7 +35,7 @@ The station contains basic information.
  ]
 }
 ```
-#### Data releases
+### Data releases
 Each station has multiple data releases.
 Demonstrated in ```2.search_meta_file.py```
 
