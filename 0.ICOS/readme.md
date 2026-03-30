@@ -35,7 +35,7 @@ The station contains basic information.
  ]
 }
 ```
-### Data releases
+## Data releases
 Each station has multiple data releases.
 Demonstrated in ```2.search_meta_file.py```
 
