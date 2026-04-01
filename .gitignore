@@ -2,3 +2,7 @@
 .idea
 .env
 *.Renviron
+*.Rproj.user
+*.Rproj
+*.Rhistory
+.Rproj.user

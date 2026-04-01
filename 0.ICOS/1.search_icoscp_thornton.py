@@ -2,10 +2,7 @@
 from icoscp.station import station
 import json
 
-
-
 my_station = station.get('BE-FOS-Thornton Buoy')
-
 help(my_station)
 
 # -----------------------------------------------------------------------------

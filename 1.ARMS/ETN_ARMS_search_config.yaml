@@ -1,0 +1,17 @@
+cols:
+  - acoustic_project_code
+  - deployment_id
+  - station_name
+  - station_description
+  - deploy_date_time
+  - recover_date_time
+  - deploy_latitude
+  - deploy_longitude
+  - mooring_type
+  - comments
+
+filters:
+  acoustic_project_code:
+    - bpns
+  station_name:
+    - emobon
