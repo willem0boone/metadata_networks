@@ -1,0 +1,82 @@
+{
+  "ingestion": {
+    "contact_id": 1021773,
+    "name": "Willem Boone"
+  },
+
+  "meta": {
+    "schemaVersion": "1.0",
+    "sourceText": "-----test-----",
+    "ingestionMethodId": 4
+  },
+
+  "options": {
+    "mode": "UPSERT",
+    "dryRun": false,
+    "createIfMissing": {
+      "platform": true,
+      "sensorSetups": true
+    }
+  },
+
+  "defaults": {
+    "deployment": {
+      "method_code": "MOORING",
+      "maxWaterDepth": null,
+      "elevation": null,
+      "ship_imo": null
+    },
+
+    "retrieval": {
+      "endingCause_code": "MISSION_COMPLETE"
+    },
+
+    "sensors": [
+      {
+        "variable_code": "TBD",
+        "sensor_model": "TBD",
+        "comments": "TBD"
+      }
+    ]
+  },
+
+  "contacts": {
+    "bram_conings": {
+      "name": "Bram Conings",
+      "id": 1023993,
+      "role": "Technical Coordinator",
+      "role_id": 234
+    },
+
+    "willem_boone": {
+      "name": "Willem Boone",
+      "id": 1021773,
+      "role": "i-t-engineer",
+      "role_id": 100
+    },
+
+    "hanneloor_heynderickx": {
+      "name": "Hanneloor Heynderickx",
+      "id": 1024013,
+      "role": "Principal Investigator",
+      "role_id": 5
+    },
+
+    "klaas_deneudt": {
+      "name": "Klaas Deneudt",
+      "id": 1022513,
+      "role": "Principal Investigator",
+      "role_id": 5
+    }
+  },
+
+  "agency": {
+    "id": 1001497,
+    "name": "Flanders Marine Institute",
+    "roles": [
+      "data-assembly-center",
+      "operating-agency",
+      "owning-agency"
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+"acoustic_project_code","deployment_id","station_name","station_description","deploy_date_time","recover_date_time","deploy_latitude","deploy_longitude","mooring_type","comments"
+"bpns",12734,"bpns-CPowerReefballs-EMOBON","bpns-CPowerReefballs-EMOBON",2021-06-23 10:00:00,2022-06-22,51.579833,2.9955,"bottom-mooring","ARMS frames attached
+Not sure about the receiver serial number! should be checked"
+"bpns",27261,"bpns-CPowerReefballs-EMOBON","bpns-CPowerReefballs-EMOBON",2022-06-22,2023-09-05,51.579833,2.9955,"bottom-mooring",NA
+"bpns",63230,"CPowerReefballs-EMOBON",NA,2023-10-23 12:00:00,2024-07-18,51.579833,2.9955,"bottom-mooring",NA
+"bpns",64139,"CPowerReefballs-EMOBON","CPower ARMS",2024-07-18 09:11:00,2025-06-11 14:13:45,51.580556,2.995944,"bottom-mooring",NA
+"bpns",74446,"CPowerReefballs-EMOBON","CPower ARMS",2025-06-11,NA,51.580556,2.995944,"bottom-mooring",NA

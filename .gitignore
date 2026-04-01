@@ -7,3 +7,4 @@
 *.Rhistory
 .Rproj.user
 *.RData
+*__pycache__

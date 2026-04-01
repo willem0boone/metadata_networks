@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "schemaVersion": "1.0",
+    "sourceText": "-----test-----",
+    "ingestionMethodId": 4,
+    "contactId": 1021773,
+    "observedAt": "2026-04-01T13:02:59Z"
+  },
+  "options": {
+    "mode": "UPSERT",
+    "dryRun": false,
+    "createIfMissing": {
+      "platform": true,
+      "sensorSetups": true
+    }
+  },
+  "platform": {
+    "match": {
+      "wigosId": "a779802bb661"
+    },
+    "patch": {
+      "name": "CPowerReefballs-EMOBON",
+      "deployment": {
+        "date": "2024-07-18T09:11:00Z",
+        "latitude": 51.580556,
+        "longitude": 2.995944,
+        "method": {
+          "code": "MOORING"
+        },
+        "maxWaterDepth": null,
+        "elevation": null,
+        "ship": {
+          "imoNumber": null
+        }
+      },
+      "retrieval": {
+        "match": {
+          "wigosId": "a779802bb661"
+        },
+        "endDate": "2025-11-06T14:13:00Z"
+      }
+    }
+  },
+  "sensorSetups": [
+    {
+      "match": {},
+      "data": {
+        "create": {
+          "variable": {
+            "code": "TBD"
+          },
+          "sensorModel": {
+            "name": "TBD"
+          }
+        }
+      }
+    }
+  ],
+  "contactContributions": [
+    {
+      "contactId": 1023993,
+      "roles": [
+        "Technical Coordinator"
+      ]
+    },
+    {
+      "contactId": 1021773,
+      "roles": [
+        "i-t-engineer"
+      ]
+    },
+    {
+      "contactId": 1024013,
+      "roles": [
+        "Principal Investigator"
+      ]
+    },
+    {
+      "contactId": 1022513,
+      "roles": [
+        "Principal Investigator"
+      ]
+    }
+  ],
+  "agencyContributions": [
+    {
+      "agencyId": 1001497,
+      "roles": [
+        "data-assembly-center",
+        "operating-agency",
+        "owning-agency"
+      ]
+    }
+  ]
+}

@@ -1,3 +1,4 @@
+setwd("R")
 # ------------------------------------------------------------------------------
 # helper: install CRAN packages if missing
 install_if_missing <- function(pkgs) {

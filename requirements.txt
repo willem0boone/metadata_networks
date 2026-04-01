@@ -1,2 +1,4 @@
 icoscp
 pandas
+pyyaml
+git+https://github.com/amrit-eu/OceanOpsClient
