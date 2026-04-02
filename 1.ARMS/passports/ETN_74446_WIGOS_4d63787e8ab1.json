@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "schemaVersion": "1.0",
+    "sourceText": "-----test-----",
+    "ingestionMethodId": 4,
+    "contactId": 1021773,
+    "observedAt": "2026-04-02T13:12:37Z"
+  },
+  "options": {
+    "mode": "UPSERT",
+    "dryRun": false,
+    "createIfMissing": {
+      "platform": true,
+      "sensorSetups": true
+    }
+  },
+  "platform": {
+    "match": {
+      "wigosId": "4d63787e8ab1"
+    },
+    "patch": {
+      "name": "CPowerReefballs-EMOBON",
+      "deployment": {
+        "date": "2025-06-11T00:00:00Z",
+        "latitude": 51.580556,
+        "longitude": 2.995944
+      },
+      "retrieval": {
+        "endDate": null
+      }
+    }
+  },
+  "sensorSetups": [],
+  "contactContributions": [],
+  "agencyContributions": []
+}

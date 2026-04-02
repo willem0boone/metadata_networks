@@ -1,8 +1,15 @@
 import os
 import subprocess
 
-BASE_DIR = r"C:\Users\willem.boone\Documents\projects\AMRIT\Passports_OceanOps\1.ARMS"
+# Get current script directory
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+
+# Navigate relative to script
+BASE_DIR = SCRIPT_DIR
 R_DIR = os.path.join(BASE_DIR, "R")
+
+EXPORT_DIR = os.path.abspath(os.path.join(BASE_DIR, "..", "etn_arms_export"))
+OUTPUT_PATH = os.path.join(EXPORT_DIR, "deployments_ARMS.csv")
 
 
 def run_r_pipeline(output_path):
@@ -10,7 +17,7 @@ def run_r_pipeline(output_path):
         ["Rscript", "extract_ETN_ARMS.R", output_path],
         capture_output=True,
         text=True,
-        cwd=R_DIR   # 🔥 THIS is the fix
+        cwd=R_DIR
     )
 
     print("---- STDOUT ----")
@@ -23,4 +30,5 @@ def run_r_pipeline(output_path):
         raise RuntimeError(f"R script failed with code {result.returncode}")
 
 
-run_r_pipeline(os.path.join(BASE_DIR, "ETN_ARMS_EXPORT", "deployments_ARMS.csv"))
+print("Output path:", OUTPUT_PATH)
+run_r_pipeline(OUTPUT_PATH)

@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "schemaVersion": "1.0",
+    "sourceText": "-----test-----",
+    "ingestionMethodId": 4,
+    "contactId": 1021773,
+    "observedAt": "2026-04-02T13:12:37Z"
+  },
+  "options": {
+    "mode": "UPSERT",
+    "dryRun": false,
+    "createIfMissing": {
+      "platform": true,
+      "sensorSetups": true
+    }
+  },
+  "platform": {
+    "match": {
+      "wigosId": "20fcd5b16f23"
+    },
+    "patch": {
+      "name": "bpns-CPowerReefballs-EMOBON",
+      "deployment": {
+        "date": "2022-06-22T00:00:00Z",
+        "latitude": 51.579833,
+        "longitude": 2.9955
+      },
+      "retrieval": {
+        "endDate": "2023-09-05T00:00:00Z"
+      }
+    }
+  },
+  "sensorSetups": [],
+  "contactContributions": [],
+  "agencyContributions": []
+}

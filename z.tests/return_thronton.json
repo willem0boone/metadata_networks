@@ -1,0 +1,32 @@
+{
+    "data": [
+        {
+            "id": 1305758,
+            "activityCriterion": 0,
+            "batchRequestRef": "2026-02-09T10:15:54Z-Other Met Moored Buoy",
+            "closureCriterion": 0,
+            "creatorId": null,
+            "dataUrl": null,
+            "deleteTag": null,
+            "description": "Moored surface buoy that serves both ERICs ICOS and LifeWatch. The buoy is equipped with sensors for pCO2, dissolved oxygen, temperature, salinity, fluorescence (chl-a), turbidity, passive acoustic receiver. Sensors are deployed approx 1m below sea surface. Station is visited on a monthly basis in order to collect samples for validation/calibration of sensors and maintain/replace equipment. Station has a secure and stable communication with VLIZ servers for NRT data transmission and overall interactive communication with in situ equipment",
+            "eNotificationDate": null,
+            "endingDate": null,
+            "ingestionMethodId": null,
+            "insertDate": "2026-02-09T10:15:54.647171",
+            "lastLocId": null,
+            "lastUpdate": null,
+            "metadataAvailable": null,
+            "name": "ICOS STATION Thornton Buoy",
+            "nokReason": null,
+            "passportValid": null,
+            "platform_asset_id": null,
+            "ref": "6204817",
+            "refParent": null,
+            "sourceText": null,
+            "updateDate": "2026-02-16T08:06:10.511361",
+            "validated": null,
+            "wigosSynchronised": null
+        }
+    ],
+    "total": 1
+}
