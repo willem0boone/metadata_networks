@@ -33,7 +33,8 @@ H{Passport already exists?}
 G --> H
 
 
-H -- No -->  K[Create new passport.json]
+H -- No -->  K["Create new passport
+ (without wigos-id)"]
 
 H -- Yes --> I[Update existing passport.json]
 
@@ -62,11 +63,7 @@ O{"has wigos? "}
 
 L --> N
 N --> O
+
 O -- No --> O1 --> N
 O -- Yes --> O2
 
-
-
-%% -------------------------
-%% Submission (separate, no coupling)
-%% -------------------------
