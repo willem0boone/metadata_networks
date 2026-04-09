@@ -4,7 +4,7 @@
     "sourceText": "-----test-----",
     "ingestionMethodId": 4,
     "contactId": 1021773,
-    "observedAt": "2026-04-02T13:12:37Z"
+    "observedAt": "2026-04-09T13:12:38Z"
   },
   "options": {
     "mode": "UPSERT",
@@ -16,13 +16,13 @@
   },
   "platform": {
     "match": {
-      "wigosId": "20fcd5b16f23"
+      "wigosId": null
     },
     "patch": {
       "name": "bpns-CPowerReefballs-EMOBON",
       "deployment": {
         "date": "2022-06-22T00:00:00Z",
-        "latitude": 51.579833,
+        "latitude": 51.5798,
         "longitude": 2.9955
       },
       "retrieval": {

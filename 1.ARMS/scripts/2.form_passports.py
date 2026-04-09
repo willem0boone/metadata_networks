@@ -16,13 +16,14 @@ from is_in_oops import validate_exists
 OUTPUT_DIR = "../passports"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-arms = pd.read_csv("../etn_arms_export/deployments_ARMS.csv")
+with open("../etn_arms_export/deployments_ARMS.json", "r") as f:
+    arms = json.load(f)
 
 with open("config/config_passports.json", "r") as f:
     config = json.load(f)
 
 
-for _, row in arms.iterrows():
+for row in arms:
 
     deployment_id = safe_chr(row.get("deployment_id"))
 
@@ -44,7 +45,7 @@ for _, row in arms.iterrows():
     # ---------------------------------------------------------------
     if exists:
         print(f"Match found → updating {os.path.basename(filepath)}")
-        update_passport(filepath, row.to_dict(), config)
+        update_passport(filepath, row, config)
         continue
 
     # ---------------------------------------------------------------

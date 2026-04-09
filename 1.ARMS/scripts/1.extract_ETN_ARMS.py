@@ -1,34 +1,39 @@
+import requests
+import json
 import os
-import subprocess
+from dotenv import load_dotenv
+from pprint import pprint
 
-# Get current script directory
-SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+load_dotenv()
 
-# Navigate relative to script
-BASE_DIR = SCRIPT_DIR
-R_DIR = os.path.join(BASE_DIR, "R")
+url = "https://opencpu.lifewatch.be/library/etnservice/R/get_acoustic_deployments/json"
 
-EXPORT_DIR = os.path.abspath(os.path.join(BASE_DIR, "..", "etn_arms_export"))
-OUTPUT_PATH = os.path.join(EXPORT_DIR, "deployments_ARMS.csv")
+payload = {
+    "credentials": {
+        "username": os.getenv("ETN_USER"),
+        "password": os.getenv("ETN_PWD")
+    },
+    "acoustic_project_code": ["bpns"]
+}
 
+response = requests.post(
+    url,
+    data=json.dumps(payload),
+    headers={"Content-Type": "application/json"}
+)
 
-def run_r_pipeline(output_path):
-    result = subprocess.run(
-        ["Rscript", "extract_ETN_ARMS.R", output_path],
-        capture_output=True,
-        text=True,
-        cwd=R_DIR
-    )
+print(response.status_code)
 
-    print("---- STDOUT ----")
-    print(result.stdout)
+data = response.json()
 
-    print("---- STDERR ----")
-    print(result.stderr)
+filtered = [
+    d for d in data
+    if "emobon" in d.get("station_name", "").lower()
+]
 
-    if result.returncode != 0:
-        raise RuntimeError(f"R script failed with code {result.returncode}")
+print(len(filtered))
+pprint(filtered)
 
+with open("../etn_arms_export/deployments_ARMS.json", 'w') as f:
+    json.dump(filtered, f, indent=4, sort_keys=True, ensure_ascii=False)
 
-print("Output path:", OUTPUT_PATH)
-run_r_pipeline(OUTPUT_PATH)

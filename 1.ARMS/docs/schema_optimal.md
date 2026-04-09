@@ -5,17 +5,12 @@ flowchart TB
 %% Section 1: ETN
 %% -------------------------
 
-B[External Service: ETN]
+A((Operators)) --> id1[(ETN database)]
 
-subgraph Python Wrapper
-    C["config.yaml (ETN filter args)"]
-    A[R Script: extract_ETN_ARMS.R]
-end
+    
 
-B --> A
-C --> A
-
-A --> E["deployments.csv (variable args)"]
+id1--> B[/"Extract_ETN_ARMS.py"/]
+B --> C["deployments.json (variable args)"]
 
 %% -------------------------
 %% Section 2: create passports
@@ -25,7 +20,7 @@ F["config.json (static args)"]
 
 G[Python: create_passport.py]
 
-E --> G
+C --> G
 F --> G
 
 H{Passport already exists?}

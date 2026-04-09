@@ -22,17 +22,12 @@ Variable args are expected to change, new records will appear, retrieval dates m
 ```mermaid
 flowchart TB
 
-B[External Service: ETN]
+A((Operators)) --> id1[(ETN database)]
 
-subgraph Python Wrapper
-    C["config.yaml (ETN filter args)"]
-    A[R Script: extract_ETN_ARMS.R]
-end
+    
 
-B --> A
-C --> A
-
-A --> E["deployments.csv (variable args)"]
+id1--> B[/"Extract_ETN_ARMS.py"/]
+B --> C["deployments.json (variable args)"]
 
 ```
 ## Part 2: create passport
@@ -55,15 +50,12 @@ Otherwise the assessment will show they do not yet exist and create passports wi
 ```mermaid
 flowchart TB
 
-E["deployments.csv (variable args)"]
+E["deployments.json (variable args)"]
 
-%% -------------------------
-%% Section 2: create passports
-%% -------------------------
+
 F["config.json (static args)"]
 
-
-G[Python: create_passport.py]
+G[/Python: create_passport.py/]
 
 E --> G
 F --> G
