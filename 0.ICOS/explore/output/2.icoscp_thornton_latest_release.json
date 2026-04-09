@@ -843,7 +843,28 @@
  "previousVersion": "https://meta.icos-cp.eu/objects/GPKT8O4mmD9SMnb-swO4Zw98",
  "nextVersion": null,
  "latestVersion": "https://meta.icos-cp.eu/objects/koYRHEPpQrcGi0d52ex_5HfB",
- "parentCollections": [],
+ "parentCollections": [
+  {
+   "uri": "https://meta.icos-cp.eu/collections/xOaMo8Fkq40bLrsxiJ91eXyx",
+   "label": "ICOS Ocean Level 2 Data Release 2025",
+   "comments": []
+  },
+  {
+   "uri": "https://meta.icos-cp.eu/collections/AMdoh60eoDflreZqd42VSwLD",
+   "label": "Thornton Buoy 2025",
+   "comments": []
+  },
+  {
+   "uri": "https://meta.icos-cp.eu/collections/Ll9cA8NEElXuePM3ItSirsxm",
+   "label": "ICOS Ocean Level 2 Data Release 2025",
+   "comments": []
+  },
+  {
+   "uri": "https://meta.icos-cp.eu/collections/-6HQrcx3MfpCGM53nV054XMH",
+   "label": "ICOS Ocean Level 2 Data Release 2025",
+   "comments": []
+  }
+ ],
  "references": {
   "citationString": "Gkritzalis, T., Theetaert, H., Cattrijsse, A., T'Jampens, M. (2025). ICOS OTC FOS Release from Thornton Buoy, 2025-06-01\u20132025-07-16, ICOS RI, https://hdl.handle.net/11676/koYRHEPpQrcGi0d52ex_5HfB",
   "citationBibTex": "@misc{https://hdl.handle.net/11676/koYRHEPpQrcGi0d52ex_5HfB,\r\n  author={Gkritzalis, Thanos and Theetaert, Hannelore and Cattrijsse, Andre and T'Jampens, Michiel},\r\n  title={ICOS OTC FOS Release from Thornton Buoy, 2025-06-01\u20132025-07-16},\r\n  year={2025},\r\n  url={https://hdl.handle.net/11676/koYRHEPpQrcGi0d52ex_5HfB},\r\n  publisher={Ocean Thematic Centre},\r\n  copyright={http://meta.icos-cp.eu/ontologies/cpmeta/icosLicence},\r\n  pid={11676/koYRHEPpQrcGi0d52ex_5HfB}\r\n}",
