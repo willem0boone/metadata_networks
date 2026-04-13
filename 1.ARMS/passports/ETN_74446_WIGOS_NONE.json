@@ -4,7 +4,7 @@
     "sourceText": "-----test-----",
     "ingestionMethodId": 4,
     "contactId": 1021773,
-    "observedAt": "2026-04-13T11:51:36Z"
+    "observedAt": "2026-04-13T12:24:24Z"
   },
   "options": {
     "mode": "UPSERT",
@@ -34,33 +34,37 @@
   "contactContributions": [
     {
       "contactId": 1023993,
-      "roleId": 234
+      "roles": [
+        "Technical Coordinator"
+      ]
     },
     {
       "contactId": 1021773,
-      "roleId": 100
+      "roles": [
+        "i-t-engineer"
+      ]
     },
     {
       "contactId": 1024013,
-      "roleId": 5
+      "roles": [
+        "Principal Investigator"
+      ]
     },
     {
       "contactId": 1022513,
-      "roleId": 5
+      "roles": [
+        "Principal Investigator"
+      ]
     }
   ],
   "agencyContributions": [
     {
       "agencyId": 1001497,
-      "role": "data-assembly-center"
-    },
-    {
-      "agencyId": 1001497,
-      "role": "operating-agency"
-    },
-    {
-      "agencyId": 1001497,
-      "role": "owning-agency"
+      "roles": [
+        "data-assembly-center",
+        "operating-agency",
+        "owning-agency"
+      ]
     }
   ]
 }

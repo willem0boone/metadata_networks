@@ -163,16 +163,16 @@ def build_contributions(config):
     for key, contact in config.get("contacts", {}).items():
         contact_contributions.append({
             "contactId": contact["id"],
-            "roleId": contact["role_id"]
+            "roles": contact["roles"]
         })
 
     # Agency
     agency = config.get("agency")
     if agency:
-        for role in agency.get("roles", []):
-            agency_contributions.append({
-                "agencyId": agency["id"],
-                "role": role
+
+        agency_contributions.append({
+            "agencyId": agency["id"],
+            "roles": agency["roles"]
             })
 
     return contact_contributions, agency_contributions

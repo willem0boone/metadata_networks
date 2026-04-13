@@ -44,29 +44,25 @@
     "bram_conings": {
       "name": "Bram Conings",
       "id": 1023993,
-      "role": "Technical Coordinator",
-      "role_id": 234
+      "roles": ["Technical Coordinator"]
     },
 
     "willem_boone": {
       "name": "Willem Boone",
       "id": 1021773,
-      "role": "i-t-engineer",
-      "role_id": 100
+      "roles": ["i-t-engineer"]
     },
 
     "hanneloor_heynderickx": {
       "name": "Hanneloor Heynderickx",
       "id": 1024013,
-      "role": "Principal Investigator",
-      "role_id": 5
+      "roles": ["Principal Investigator"]
     },
 
     "klaas_deneudt": {
       "name": "Klaas Deneudt",
       "id": 1022513,
-      "role": "Principal Investigator",
-      "role_id": 5
+      "roles": ["Principal Investigator"]
     }
   },
 
