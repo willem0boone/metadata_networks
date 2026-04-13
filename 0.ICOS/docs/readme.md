@@ -1,16 +1,15 @@
 # ICOS ingestion
 
-## Part 1: pull ARMS metadata from ETN
 
 ICOS data is on ICOS website or accessable via icoscp python library. 
 
-### Structure
+## Structure
 
 E.g Thornton buoy: https://meta.icos-cp.eu/resources/stations/OS_1199
 - Each station has data releases. 
 - Each release has a metadata json.
 
-### icoscp python lib
+## icoscp python lib
 The scripts in ```/explore``` demonstrate how to use the icoscp python client 
 to 
 - 0.list all stations
@@ -51,11 +50,11 @@ F --> G[(OceanOps)]
 ```
 
 
-### Consideration
+## Consideration
 - Pushing data from icoscp would require a program that searches the latest data release, and extracts the required fields. 
 - This metadata originates from data releases, not from deployment logging (long delays possible)
 
-### Alternative
+## Alternative
 Limited changes are expected (one station, fixed location). A manual approach 
 could do the job.
 
@@ -67,6 +66,6 @@ flowchart TB
 
 A((Operators)) --GUI--> id1[(OceanOPS)]
 B((IT maintainer)) --GUI--> id1[(OceanOPS)]
-C[passport.json] --> D[/push script.py/]
+C[passport.json - manualy created] --> D[/push script.py/]
 D --> id1
 ```
