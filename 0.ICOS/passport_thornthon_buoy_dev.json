@@ -20,17 +20,18 @@
     },
     "patch": {
       "name": "ICOS STATION Thornton Buoy",
+      "comments": "Moored surface buoy that serves both ERICs ICOS and LifeWatch. The buoy is equipped with sensors for pCO2, dissolved oxygen, temperature, salinity, fluorescence (chl-a), turbidity, passive acoustic receiver. Sensors are deployed approx 1m below sea surface. Station is visited on a monthly basis in order to collect samples for validation/calibration of sensors and maintain/replace equipment. Station has a secure and stable communication with VLIZ servers for NRT data transmission and overall interactive communication with in situ equipment.",
       "identification": {
         "weblinks": {
           "set": [
             {
-              "name": "ICOS STATION: Thornton Buoy",
+              "name": "project-info",
               "url": "https://meta.icos-cp.eu/resources/stations/OS_1199",
               "topic": {
                 "code": "project-info"
               }
             },
-            {"name": "ICOS data portal",
+            {"name": "os-data",
               "url": "https://data.icos-cp.eu/portal/#%7B%22filterCategories%22%3A%7B%22station%22%3A%5B%22iOS_1199%22%5D%2C%22level%22%3A%5B1%2C2%5D%7D%7D",
               "topic": {
                 "code": "os-data"
@@ -46,6 +47,25 @@
       }
     }
   },
+  "sensorSetups": [
+    {
+      "match": {},
+      "data": {
+        "create": {
+          "variable": {
+            "code": "pco2"
+          },
+          "sensorModel": {
+            "code": "generic-pco2-system"
+          },
+          "placement": {},
+          "sensor": {},
+          "lifecycle": {},
+          "comments": "Diverse areal and aquatic CO2 sensors"
+        }
+      }
+    }
+  ],
   "contactContributions": [
     {
       "contactId": 1022493,
