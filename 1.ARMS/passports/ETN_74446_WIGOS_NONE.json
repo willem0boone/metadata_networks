@@ -4,7 +4,7 @@
     "sourceText": "-----test-----",
     "ingestionMethodId": 4,
     "contactId": 1021773,
-    "observedAt": "2026-04-09T13:12:38Z"
+    "observedAt": "2026-04-13T11:51:36Z"
   },
   "options": {
     "mode": "UPSERT",
@@ -31,6 +31,36 @@
     }
   },
   "sensorSetups": [],
-  "contactContributions": [],
-  "agencyContributions": []
+  "contactContributions": [
+    {
+      "contactId": 1023993,
+      "roleId": 234
+    },
+    {
+      "contactId": 1021773,
+      "roleId": 100
+    },
+    {
+      "contactId": 1024013,
+      "roleId": 5
+    },
+    {
+      "contactId": 1022513,
+      "roleId": 5
+    }
+  ],
+  "agencyContributions": [
+    {
+      "agencyId": 1001497,
+      "role": "data-assembly-center"
+    },
+    {
+      "agencyId": 1001497,
+      "role": "operating-agency"
+    },
+    {
+      "agencyId": 1001497,
+      "role": "owning-agency"
+    }
+  ]
 }

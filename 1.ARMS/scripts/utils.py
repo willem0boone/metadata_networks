@@ -101,6 +101,8 @@ def update_passport(filepath, csv_row, config):
 # -------------------------------------------------------------------
 def build_full_passport(row, config, wigos_id):
 
+    contact_contributions, agency_contributions = build_contributions(config)
+
     return {
         "meta": {
             "schemaVersion": config["meta"]["schemaVersion"],
@@ -127,8 +129,8 @@ def build_full_passport(row, config, wigos_id):
             }
         },
         "sensorSetups": [],
-        "contactContributions": [],
-        "agencyContributions": []
+        "contactContributions": contact_contributions,
+        "agencyContributions": agency_contributions
     }
 
 
@@ -144,4 +146,33 @@ def apply_config_updates(passport, config):
 
     passport["options"] = config["options"]
 
+    # NEW: update contributions
+    contact_contributions, agency_contributions = build_contributions(config)
+
+    passport["contactContributions"] = contact_contributions
+    passport["agencyContributions"] = agency_contributions
+
     return passport
+
+
+def build_contributions(config):
+    contact_contributions = []
+    agency_contributions = []
+
+    # Contacts
+    for key, contact in config.get("contacts", {}).items():
+        contact_contributions.append({
+            "contactId": contact["id"],
+            "roleId": contact["role_id"]
+        })
+
+    # Agency
+    agency = config.get("agency")
+    if agency:
+        for role in agency.get("roles", []):
+            agency_contributions.append({
+                "agencyId": agency["id"],
+                "role": role
+            })
+
+    return contact_contributions, agency_contributions
